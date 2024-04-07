@@ -1,4 +1,10 @@
 # Montpy: Montecarlo and Quasi-Montecarlo Integration Library
+<div style="text-align:center">
+    <a href="https://pypi.org/project/montpy/">
+        <img src="https://img.shields.io/pypi/dm/montpy.svg" alt="Monthly Downloads">
+    </a>
+</div>
+
 
 This Python library provides implementations of Monte Carlo and Quasi-Monte Carlo methods for evaluating integrals. Monte Carlo methods are stochastic techniques based on random sampling, while Quasi-Monte Carlo methods use low-discrepancy sequences for sampling. These methods are particularly useful for high-dimensional integrals where other numerical methods may struggle.
 
