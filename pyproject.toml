@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "montepy"
+version = "0.1.0"
+description = ""
+authors = ["ScipioneParmigiano <pcs.parmigiano@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+numpy = "^1.26.4"
+scipy = "^1.11.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
