@@ -1,5 +1,5 @@
 import unittest
-from montepy.qmc import QuasiMonteCarloSolver
+from montpy.qmc import QuasiMonteCarloSolver
 
 class TestQuasiMonteCarloSolver(unittest.TestCase):
     def setUp(self):

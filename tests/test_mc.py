@@ -1,6 +1,6 @@
 import unittest
 import numpy as np
-from montepy.mc import MonteCarloSolver, ImportanceSampler
+from montpy.mc import MonteCarloSolver, ImportanceSampler
 
 class TestMonteCarloSolver(unittest.TestCase):
     def test_single_variable_integration(self):
