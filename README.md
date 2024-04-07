@@ -31,12 +31,16 @@ domain = [(0, 1), (0, 1)]
 solver_mc = ImportanceSampler(f, domain)
 integral_mc = solver_mc.integrate(num_samples=1000)
 print("Estimated integral with Monte Carlo:", integral_mc)
+
+# Define the function to integrate
+def g(x, y):
+    return x*y
     
 # Create the Quasi-Monte Carlo solver
-solver_qmc = QuasiMonteCarloSolver(f, domain)
+solver_qmc = QuasiMonteCarloSolver(g, domain)
 
 # Perform integration using Sobol sequence
-integral_sobol = solver_quasi.integrate_sobol(num_samples=1000)
+integral_sobol = solver_qmc.integrate_sobol(num_samples=1000)
 print("Estimated integral with Sobol sequence:", integral_sobol)
 ```
 
