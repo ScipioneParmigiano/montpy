@@ -1,8 +1,8 @@
 [tool.poetry]
 name = "montepy"
 version = "0.1.0"
-description = ""
-authors = ["ScipioneParmigiano <pcs.parmigiano@gmail.com>"]
+description = "Implementing Monte Carlo and Quasi-Monte Carlo methods for integral evaluation."
+authors = ["Pietro Zanotta <zanottapietro1@gmail.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
