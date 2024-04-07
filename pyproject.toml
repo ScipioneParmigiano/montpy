@@ -1,7 +1,7 @@
 [tool.poetry]
 name = "montepy"
 version = "0.1.0"
-description = "Implementing Monte Carlo and Quasi-Monte Carlo methods for integral evaluation."
+description = "Library implementing Monte Carlo and Quasi-Monte Carlo methods for integral evaluation"
 authors = ["Pietro Zanotta <zanottapietro1@gmail.com>"]
 readme = "README.md"
 
